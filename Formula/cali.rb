@@ -1,20 +1,20 @@
 class Cali < Formula
   desc "A terminal calculator with real-time evaluation, unit conversions, and natural language expressions."
   homepage "https://github.com/BorhanSaflo/cali#readme"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/BorhanSaflo/cali/releases/download/v0.6.0/cali-aarch64-apple-darwin.tar.xz"
-      sha256 "e111c3e07264e28468e96535606560a628a909983b41489fd0a44b5745a22bf9"
+      url "https://github.com/BorhanSaflo/cali/releases/download/v0.7.0/cali-aarch64-apple-darwin.tar.xz"
+      sha256 "695b897012280a0eef44c9e5a3532b793fb83550c5afa43d8e27069215f08294"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/BorhanSaflo/cali/releases/download/v0.6.0/cali-x86_64-apple-darwin.tar.xz"
-      sha256 "648134d288b639942e437c6fdd07303665ec7558724485520ebe8e88dba930ec"
+      url "https://github.com/BorhanSaflo/cali/releases/download/v0.7.0/cali-x86_64-apple-darwin.tar.xz"
+      sha256 "4cf59e2a6931327817fa2682175ffe97735d7783076937d82aa4e93b7090dcf7"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/BorhanSaflo/cali/releases/download/v0.6.0/cali-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "d16074e843041ef9a0ccccbb389a91d1c8b44e97379577ac9c5e54dd7360aeb6"
+    url "https://github.com/BorhanSaflo/cali/releases/download/v0.7.0/cali-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "4e224befbed74070e97e4b0d4af9361973a81e333109b4dbfd2007c7b1af338a"
   end
   license "MIT"
 
